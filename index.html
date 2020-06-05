@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+    <title>De-Covid | Covid-19</title>
+</head>
+<body>
+<main>
+
+    <section class="covid-heading">
+        <h1>Covid-19 India Tracker</h1>
+    </section>
+
+    <section class="databars-display">
+        <div class="data-bar confirmed">
+            <h3>Confirmed</h3>
+            <h1 id="confirmed-cases"></h1>
+        </div>
+        <div class="data-bar active">
+            <h3>Active</h3>
+            <h1 id="active-cases"></h1>
+        </div>
+        <div class="data-bar recovered">
+            <h3>Recovered</h3>
+            <h1 id="recovered-cases"></h1>
+        </div>
+        <div class="data-bar deaths">
+            <h3>Deaths</h3>
+            <h1 id="deaths-cases"></h1>
+        </div>
+        <div class="data-bar tested">
+            <h3>Tested</h3>
+            <h1 id="tested-cases"></h1>
+        </div>
+    </section>
+
+    <section class="table-data">
+        <table style="overflow: scroll;" >
+            <thead>
+                <tr>
+                    <th colspan="5">
+                        <h1 class="table-head">All India States</h1>
+                    </th>
+                </tr>
+                <tr>
+                    <th class="color-or">State</th>
+                    <th class="confirmed">Confirmed</th>
+                    <th class="active">Active</th>
+                    <th class="recovered">Recovered</th>
+                    <th class="deaths">Deaths</th>
+                </tr>
+            </thead>
+            <tbody id="tabular-data">
+
+            </tbody>
+        </table>
+    </section>
+
+    <section class="here-map">
+        <div class="head">
+            <h1>Global Stats</h1>
+        </div>
+        <div class="map">
+            <iframe src="https://app.developer.here.com/coronavirus/" frameborder="0"></iframe>
+        </div>
+    </section>
+</main>
+    <footer class="footer">
+        <h2 class="author">Design and Created by <a href="https://github/theleancoderr">Yash</a></h2>
+    </footer>
+<script src="main.js"></script>
+</body>
+</html>
