@@ -1,4 +1,4 @@
-# Covid-19 India by [Yash](https://github/theleancoderr)
+# Covid-19 India by [Yash](https://github.com/theleancoderr)
 
 Features:
 - Track Covid-19 Cases in India.
