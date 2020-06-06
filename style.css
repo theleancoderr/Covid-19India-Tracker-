@@ -18,8 +18,8 @@
     --grey-hover:rgba(108, 117, 125, 0.30);
     --grey-opaque:rgba(108, 117, 125, 0.25);
     --orange:#FD7E14;
-    --orange-hover:rgba(253, 126, 20, 0.30)
-    --orange-opaque:rgba(253, 126, 20, 0.22)
+    --orange-hover:rgba(253, 126, 20, 0.30);
+    --orange-opaque:rgba(253, 126, 20, 0.22);
 }
 
 *{
@@ -121,9 +121,6 @@ h1,h2, h3{
 table {
     width: 100%;  
 }
-tr{
-    padding: 5px;
-}  
 th, td {
     text-align: left;
     padding: 16px;
@@ -190,6 +187,7 @@ tr:nth-child(even) {
     }
     table th, td{
         font-size: 12px;
+        padding:6px;
     }
     .heremap .head h1{
         font-size: 18px;
